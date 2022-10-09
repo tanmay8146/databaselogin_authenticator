@@ -1,6 +1,7 @@
 import mysql.connector as msql
 
 class Login:
+    #Author @TanmayXD
     def __init__(self, host, AccessUser, AccessPass, database, loginTable, userName, userPass):
         self.host = host                    #Hostname of mySQL Server
         self.AccessUser = AccessUser        #Database User Account
